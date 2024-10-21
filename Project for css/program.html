@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .our-video{
+            height: 608px;
+            width: 100%;
+            background-image: url('https://static.zohocdn.com/sites/stock-images/images/zpstock-image-933.jpg');
+            background-size: cover;
+            display: flex;
+            position: relative;
+            z-index: 2;
+        }
+
+        .our-video::after{
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 608px;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, .8);
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+
+<section class="our-video">
+    <div class="container">
+        <div class="video">
+            <h3>watch our video</h3>
+        <h2>Get Better Solution For Your Bussiness.</h2>
+        <p>NO fake products and services.The customers is king, their lives and needs are the inspiration.</p>
+        <p class="ok"><a href="#">CONTACT US</a></p>
+        <div class="play">
+            <i class="fa-solid fa-play"></i>
+        </div>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="section-title">
+            <h3 class="title">testimonials</h3>
+            <h2 class="heading">Some Lovely Feedback From Our Clients</h2>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4 ok1">
+                    <div class="client">
+                        <p>"We believe brand interaction is key in communication.Real innovations and a positive customer experience are the heart of successful communication.No fake products and services."</p>
+                        <div class="details">
+                            <div class="client-img">
+                                <span><img src="Image/1.jpg" alt="client1"></span>
+                            </div>
+                            <div class="img-details">
+                                <h3>Sarah Taylor</h3>
+                                <span>Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 ok2">
+                    <div class="client">
+                        <p>"We believe brand interaction is key in communication.Real innovations and a positive customer experience are the heart of successful communication.No fake products and services."</p>
+                        <div class="details">
+                            <div class="client-img">
+                                <span><img src="Image/2.jpg" alt="client1"></span>
+                            </div>
+                            <div class="img-details">
+                                <h3>Jason Roy</h3>
+                                <span>Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 ok3">
+                    <div class="client">
+                        <p>"We believe brand interaction is key in communication.Real innovations and a positive customer experience are the heart of successful communication.No fake products and services."</p>
+                        <div class="details">
+                            <div class="client-img">
+                                <span><img src="Image/3.jpg" alt="client1"></span>
+                            </div>
+                            <div class="img-details">
+                                <h3>Steven Smith</h3>
+                                <span>Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+    
+</body>
+</html>
